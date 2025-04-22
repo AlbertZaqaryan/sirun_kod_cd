@@ -20,7 +20,7 @@ def chat(message):
     markup.add(
         InlineKeyboardButton("Concerts", callback_data="concerts"),
         InlineKeyboardButton("Theatre", callback_data="theatre"),
-        InlineKeyboardButton("Opera and Ballet", callback_data="opera_ballet")
+        InlineKeyboardButton("Opera and Ballet", callback_data="opera_ballet"),
         InlineKeyboardButton("Paron Albert", callback_data="opera_ballet")
     )
     
